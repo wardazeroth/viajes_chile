@@ -1,0 +1,8 @@
+.container {
+    position: relative;
+}
+
+
+#inicio, #quienes-somos, #destacado, #contacto {
+    min-height: 25rem;
+}
