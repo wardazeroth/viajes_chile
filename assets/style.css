@@ -1,37 +1,39 @@
-.container {
-    position: relative;
-}
 
 .navbar {
-    background-color: rgb(36,154,166);
+    background-color: transparent;
 }
 
-#inicio {
-    width: 100%;
-    height: 630px;
-    background-image: url('img/carousel1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.navbar-brand {
+    padding-left: 10rem;
+}
+
+.collapse {
+    padding-right: 10rem;
 }
 
 #inicio, #quienes-somos, #destacado, #contacto {
-    min-height: 25rem;
+
 }
 
-#quienes-somos, #contacto {
+#quienes-somos, #destacado, #contacto {
     padding: 2rem 7rem 2rem 7rem;
 }
 
 .barra-celeste {
     background-color: rgb(13,202,240);
-    height: 2rem;
+    height: 3rem;
 }
 
 .barra-celeste i {
+    font-size: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    vertical-align: middle;
+    padding-top: 0.5rem;
+}
+
+.card {
+    margin-bottom: 2rem;
 }
 
 .card-body {
@@ -43,7 +45,7 @@
     height: 8rem;
 }
 
-.tarjetas {
+.tarjetas, .col-12 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -55,5 +57,28 @@ footer {
 }
 
 footer .row {
-   padding-left: 10rem; 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around
 }
+
+.iconos, .titulofooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulofooter {
+    padding-top: 1.5rem;
+}
+.btn {
+    background-color: rgb(13,202,240);
+}
+
+.iconos, i {
+    font-size: 2rem;
+    padding: 1rem;
+    color: #ffff;
+}
+
+
