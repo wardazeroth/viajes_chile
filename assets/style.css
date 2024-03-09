@@ -2,7 +2,45 @@
     position: relative;
 }
 
+.navbar {
+    background-color: rgb(36,154,166);
+}
+
+#inicio {
+    width: 100%;
+    height: 630px;
+    background-image: url('img/carousel1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #inicio, #quienes-somos, #destacado, #contacto {
     min-height: 25rem;
+}
+
+.barra-celeste {
+    background-color: rgb(13,202,240);
+    height: 2rem;
+}
+
+.barra-celeste i {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.card-body {
+    background-color: rgb(13,202,240);
+    color: #ffff;
+}
+
+.card img {
+    height: 8rem;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
