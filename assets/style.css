@@ -1,7 +1,16 @@
 
 .navbar {
     background-color: transparent;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 .navbar-brand {
     padding-left: 10rem;
@@ -11,8 +20,11 @@
     padding-right: 10rem;
 }
 
-#inicio, #quienes-somos, #destacado, #contacto {
-
+.container-fluid {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #quienes-somos, #destacado, #contacto {
@@ -52,6 +64,10 @@
 }
 
 footer {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     background-color: rgb(13,202,240);
     color: #ffff;
 }
