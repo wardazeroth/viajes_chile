@@ -27,6 +27,10 @@ html {
     font-style: normal;
 }
 
+h1:hover, i:hover {
+    color: rgb(252, 225, 74);
+}
+
 #quienes-somos, #destacado, #contacto {
     padding: 2rem 7rem 2rem 7rem;
 }
@@ -46,6 +50,8 @@ html {
 
 .card {
     margin-bottom: 2rem;
+    border-color:  rgb(13,202,240); 
+    border-width: 3px;
 }
 
 .card-body {
